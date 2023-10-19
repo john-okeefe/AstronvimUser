@@ -15,6 +15,6 @@ return {
   -- { import = "astrocommunity.pack.zig" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.note-taking.obsidian-nvim" },
+  -- { import = "astrocommunity.note-taking.obsidian-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
 }
