@@ -16,4 +16,5 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.motion.nvim-surround" },
+  -- { import = "astrocommunity.note-taking.neorg" },
 }
