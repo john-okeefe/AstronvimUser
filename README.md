@@ -13,7 +13,7 @@ My user config for Astronvim. Clone into lua/user directory.
     - luarocks
     - magick LuaRock
     - ImageMagick
-    - Kitty
+    - Kitty or Wezterm
     - curl
 - obsidian.nvim
     - Obsidian (recommended)
