@@ -45,7 +45,7 @@ return {
         opts = { noremap = false, expr = true, buffer = true },
       },
     },
-    overwrite_mappings = true,
+    -- overwrite_mappings = true,
   },
   disable_frontmatter = true,
   open_app_foreground = true,
