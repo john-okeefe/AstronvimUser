@@ -17,8 +17,17 @@ return {
       ["core.dirman"] = { -- Manages Neorg workspaces
         config = {
           workspaces = {
-            notes = "~/Nextcloud/Documents/neorgNotes/",
+            personal = "~/Nextcloud/Documents/neorgNotes/Personal",
+            bible = "~/Nextcloud/Documents/neorgNotes/Bible & Christianity",
+            gaming = "~/Nextcloud/Documents/neorgNotes/Gaming",
+            tech = "~/Nextcloud/Documents/neorgNotes/Technology",
+            media = "~/Nextcloud/Documents/neorgNotes/Video & Audio Editing",
           },
+          -- Automatically detect whenever we have entered a subdirectory of a workspace
+          autodetect = true,
+
+          -- Automatically change the directory to the root of the workspace every time
+          autochdir = true,
         },
       },
     },
